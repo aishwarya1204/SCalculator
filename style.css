@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw; 
+    height: 100vh;
+    display: flex; /*to display the box in center use grid or flex*/
+    justify-content: center; /*aligns box horizontally*/
+    align-items: center; /*aligns box vertically*/
+    background: linear-gradient(45deg, #0a0a0a, #3a4452); /*to use 2 colours*/
+}
+
+.Calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #000000;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input{
+    width: 320px;
+    height: 180px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(113, 115, 119, 0.5);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #0a0a0a;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.11);
+}
+
+.light{
+    background-color: #2e2c24 ;
+    font-size: 25px;
+}
+
+.equal{
+    background-color: #9400D3 ;
+}
+
